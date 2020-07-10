@@ -8,7 +8,7 @@
  * different template.
  *
  * @link https://codex.wordpress.org/Template_Hierarchy
- *
+ * Template Name:paywhatyouwant
  * @package <ADD YOUR WORDPRESS THEME PACKAGE NAME HERE>
  */
 
