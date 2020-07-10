@@ -29,9 +29,9 @@ get_header(); ?>
 			</div>	<!-- .singular-content-wrap -->
 		</main><!-- #main -->
 	</div><!-- #primary -->
-//Begin pay what you want script
+// Begin pay what you want script
 
-function getValue() {
+<?php function getValue() {
     var str = $("#amount").val();
     str = str.replace(/[^0-9.,]/g, "");
     var val = parseFloat(str.replace(",", "."));
@@ -53,7 +53,7 @@ $("#paypal_form").submit(function(event) {
             window.location = "DOWNLOAD_LINK";
         }
     }
-});
+}); ?>
 
 // End pay what you want script
 <?php get_sidebar(); ?>
